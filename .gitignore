@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build outputs (Vercel builds directly from source via npm run build)
+dist/
+dist-ssr/
+*.local
+
+# Android native build & SDK files (Not needed for Vercel web deployment)
+android/
+android-sdk/
+jdk17.zip
+/GitaQuest.apk
+gita-sadhana-debug.apk
+*.apk.bak
+*.aab
+
+# Keystores & Private Signing Credentials (CRITICAL SECURITY)
+*.jks
+*.keystore
+*.p12
+*.key
+*.pem
+*.pk8
+*.mobileprovision
+
+# Environment & Secret files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Cache & Temporary build logs
+scripts/cache/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

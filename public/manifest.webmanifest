@@ -1,0 +1,31 @@
+{
+  "name": "GitaQuest: Bhagavad Gita",
+  "short_name": "GitaQuest",
+  "description": "A calm, ad-free companion for your Bhagavad Gita journey. Read. Reflect. Grow.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FBF8F2",
+  "theme_color": "#1E3A2F",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./gitaquest_logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["books", "education", "lifestyle"]
+}

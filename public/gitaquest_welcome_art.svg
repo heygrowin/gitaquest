@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBF4E6"/>
+      <stop offset="50%" stop-color="#F7ECE0"/>
+      <stop offset="100%" stop-color="#EBE3D3"/>
+    </linearGradient>
+    <linearGradient id="sunGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE0A3" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#F7ECE0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mountFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B2C2B2" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#8DA18E" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="mountMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#678572"/>
+      <stop offset="100%" stop-color="#426350"/>
+    </linearGradient>
+    <linearGradient id="mountNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2D4D3D"/>
+      <stop offset="100%" stop-color="#1A3327"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="400" height="240" rx="24" fill="url(#skyGrad)"/>
+
+  <!-- Morning Sun -->
+  <circle cx="200" cy="115" r="42" fill="url(#sunGlow)"/>
+  <circle cx="200" cy="115" r="24" fill="#FCE8BE" opacity="0.9"/>
+
+  <!-- Distant Mountains -->
+  <path d="M0 160 Q70 120 140 145 T280 135 T400 155 L400 240 L0 240 Z" fill="url(#mountFar)"/>
+
+  <!-- Mid-distance Mountains -->
+  <path d="M0 175 Q60 145 130 160 T270 150 T400 170 L400 240 L0 240 Z" fill="url(#mountMid)"/>
+
+  <!-- Foreground Forest Ridge & Mist -->
+  <path d="M0 195 Q80 170 180 185 T340 175 T400 185 L400 240 L0 240 Z" fill="url(#mountNear)"/>
+
+  <!-- Subtle tree silhouettes -->
+  <path d="M30 200 L34 185 L38 200 Z" fill="#14261D"/>
+  <path d="M35 202 L40 182 L45 202 Z" fill="#14261D"/>
+  <path d="M42 205 L47 188 L52 205 Z" fill="#14261D"/>
+  <path d="M340 198 L345 180 L350 198 Z" fill="#14261D"/>
+  <path d="M348 200 L353 176 L358 200 Z" fill="#14261D"/>
+  <path d="M356 202 L361 182 L366 202 Z" fill="#14261D"/>
+
+  <!-- Soft Morning Birds -->
+  <path d="M120 70 Q125 65 130 70 Q135 65 140 70" stroke="#7A8F7D" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M145 60 Q149 56 153 60 Q157 56 161 60" stroke="#7A8F7D" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+</svg>

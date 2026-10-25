@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="heroSky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3E30" />
+      <stop offset="50%" stop-color="#163125" />
+      <stop offset="100%" stop-color="#0E2118" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#D4A359" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#2D5A46" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#0E2118" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="mistGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4A359" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#0E2118" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Base -->
+  <rect width="600" height="300" fill="url(#heroSky)" />
+
+  <!-- Sun / Warm Aura Glow in upper right -->
+  <circle cx="480" cy="90" r="140" fill="url(#sunGlow)" />
+  <circle cx="480" cy="90" r="45" fill="#E8C582" fill-opacity="0.2" />
+
+  <!-- Distant Himalayan Peaks -->
+  <path d="M120,300 L240,140 L360,300 Z" fill="#254A3A" fill-opacity="0.4" />
+  <path d="M280,300 L410,110 L540,300 Z" fill="#2D5845" fill-opacity="0.5" />
+  <path d="M420,300 L510,160 L600,300 Z" fill="#224535" fill-opacity="0.45" />
+
+  <!-- Midground Hills -->
+  <path d="M0,300 Q140,160 300,220 T600,190 L600,300 Z" fill="#183628" fill-opacity="0.75" />
+
+  <!-- Forest Trees Silhouettes -->
+  <g fill="#10251C" opacity="0.9">
+    <!-- Tree cluster left -->
+    <path d="M30,300 L45,210 L60,300 Z" />
+    <path d="M48,300 L62,225 L76,300 Z" />
+    <path d="M15,300 L28,235 L41,300 Z" />
+    <path d="M70,300 L82,240 L94,300 Z" />
+    
+    <!-- Tree cluster right -->
+    <path d="M520,300 L538,190 L556,300 Z" />
+    <path d="M545,300 L560,205 L575,300 Z" />
+    <path d="M495,300 L510,215 L525,300 Z" />
+    <path d="M565,300 L580,225 L595,300 Z" />
+  </g>
+
+  <!-- Foreground mist overlay -->
+  <rect width="600" height="300" fill="url(#mistGrad)" />
+</svg>

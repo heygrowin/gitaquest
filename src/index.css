@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-warm-ivory: #FBF8F2;
+  --color-forest-green: #1E3A2F;
+  --color-deep-brown: #1A2420;
+  --color-saffron: #D4A359;
+  --color-antique-gold: #D4A359;
+  --color-muted-olive: #6C7771;
+  --color-soft-white: #FFFFFF;
+
+  --bg-primary: #FBF8F2;
+  --bg-card: #FFFFFF;
+  --bg-elevated: #FFFFFF;
+  --text-primary: #1A2420;
+  --text-secondary: #4A5750;
+  --text-muted: #6C7771;
+  --border-gold: #EAE5DA;
+  --border-gold-subtle: #F2EDE4;
+  --gold-glow: rgba(30, 58, 47, 0.08);
+}
+
+.dark {
+  --bg-primary: #0F1A14;
+  --bg-card: #182920;
+  --bg-elevated: #21362B;
+  --text-primary: #F1F5F2;
+  --text-secondary: #C0CCC4;
+  --text-muted: #8E9E94;
+  --border-gold: rgba(212, 163, 89, 0.25);
+  --border-gold-subtle: rgba(255, 255, 255, 0.08);
+  --gold-glow: rgba(30, 58, 47, 0.25);
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  -webkit-user-select: none;
+  overscroll-behavior-y: none;
+}
+
+/* Devanagari shloka styling */
+.font-shloka {
+  font-family: 'Noto Serif Devanagari', serif;
+  line-height: 1.85;
+  letter-spacing: 0.015em;
+}
+
+.font-serif-heading {
+  font-family: 'Cinzel', 'Cormorant Garamond', serif;
+  letter-spacing: 0.03em;
+}
+
+/* Ornamental temple border */
+.temple-border {
+  border: 1px solid var(--border-gold);
+}
+
+.temple-border-bottom {
+  border-bottom: 1px solid var(--border-gold);
+}
+
+.temple-border-top {
+  border-top: 1px solid var(--border-gold);
+}
+
+/* Subtle gold card shadow */
+.shadow-temple {
+  box-shadow: 0 4px 20px -2px rgba(52, 41, 31, 0.06), 0 0 1px 1px var(--border-gold-subtle);
+}
+
+.shadow-temple-glow {
+  box-shadow: 0 4px 24px -2px var(--gold-glow), 0 0 1px 1px var(--border-gold);
+}
+
+/* Mobile safe area helpers */
+.pt-safe {
+  padding-top: max(12px, env(safe-area-inset-top));
+}
+
+.pb-safe {
+  padding-bottom: max(16px, env(safe-area-inset-bottom));
+}
+
+.bottom-bar-safe {
+  padding-bottom: max(10px, env(safe-area-inset-bottom));
+}
+
+/* Scrollbar refinement */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(177, 138, 66, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(177, 138, 66, 0.6);
+}
+
+/* Smooth fade in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Ornamental gold divider */
+.gold-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.gold-divider::before,
+.gold-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--border-gold), transparent);
+}

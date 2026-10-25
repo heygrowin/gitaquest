@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="48" fill="#F7F0E3" stroke="#B18A42" stroke-width="2"/>
+  <circle cx="50" cy="50" r="44" stroke="#B18A42" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <!-- Central Petal -->
+  <path d="M50 20 C42 36 42 56 50 72 C58 56 58 36 50 20 Z" fill="#C76A24" opacity="0.9"/>
+  <!-- Inner Side Petals -->
+  <path d="M50 28 C35 42 34 60 48 70 C42 58 42 42 50 28 Z" fill="#B18A42" opacity="0.85"/>
+  <path d="M50 28 C65 42 66 60 52 70 C58 58 58 42 50 28 Z" fill="#B18A42" opacity="0.85"/>
+  <!-- Outer Side Petals -->
+  <path d="M48 40 C28 48 24 64 42 74 C34 64 38 50 48 40 Z" fill="#777B56" opacity="0.8"/>
+  <path d="M52 40 C72 48 76 64 58 74 C66 64 62 50 52 40 Z" fill="#777B56" opacity="0.8"/>
+  <!-- Base Lotus Lotus Seedpod -->
+  <circle cx="50" cy="68" r="4" fill="#34291F"/>
+  <path d="M42 76 C46 79 54 79 58 76" stroke="#B18A42" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

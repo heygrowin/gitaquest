@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-10-12T20:06:24.108Z",
+  "totalChapters": 18,
+  "expectedVerses": 701,
+  "importedVerses": 701,
+  "missingVerses": [],
+  "misalignedTranslations": [],
+  "sources": {
+    "sanskrit": "Bhagavad Gita Traditional Devanagari Recension",
+    "hindi": "Swami Tejomayananda / Swami Ramsukhdas (Central Chinmaya Mission Trust & Gita Press)",
+    "english": "Shri Purohit Swami (1935) & Swami Sivananda (Divine Life Society)",
+    "license": "Public Domain / Cultural Heritage Educational Fair Use"
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "title": "Arjuna Visada Yoga",
+      "sanskrit_title": "अर्जुनविषादयोग",
+      "expected": 47,
+      "imported": 47,
+      "complete": true
+    },
+    {
+      "chapter_number": 2,
+      "title": "Sankhya Yoga",
+      "sanskrit_title": "सांख्ययोग",
+      "expected": 72,
+      "imported": 72,
+      "complete": true
+    },
+    {
+      "chapter_number": 3,
+      "title": "Karma Yoga",
+      "sanskrit_title": "कर्मयोग",
+      "expected": 43,
+      "imported": 43,
+      "complete": true
+    },
+    {
+      "chapter_number": 4,
+      "title": "Jnana Karma Sanyasa Yoga",
+      "sanskrit_title": "ज्ञानकर्मसंन्यासयोग",
+      "expected": 42,
+      "imported": 42,
+      "complete": true
+    },
+    {
+      "chapter_number": 5,
+      "title": "Karma Sanyasa Yoga",
+      "sanskrit_title": "कर्मसंन्यासयोग",
+      "expected": 29,
+      "imported": 29,
+      "complete": true
+    },
+    {
+      "chapter_number": 6,
+      "title": "Dhyana / Atmasamyama Yoga",
+      "sanskrit_title": "आत्मसंयमयोग",
+      "expected": 47,
+      "imported": 47,
+      "complete": true
+    },
+    {
+      "chapter_number": 7,
+      "title": "Jnana Vijnana Yoga",
+      "sanskrit_title": "ज्ञानविज्ञानयोग",
+      "expected": 30,
+      "imported": 30,
+      "complete": true
+    },
+    {
+      "chapter_number": 8,
+      "title": "Aksara Brahma Yoga",
+      "sanskrit_title": "अक्षरब्रह्मयोग",
+      "expected": 28,
+      "imported": 28,
+      "complete": true
+    },
+    {
+      "chapter_number": 9,
+      "title": "Raja Vidya Raja Guhya Yoga",
+      "sanskrit_title": "राजविद्याराजगुह्ययोग",
+      "expected": 34,
+      "imported": 34,
+      "complete": true
+    },
+    {
+      "chapter_number": 10,
+      "title": "Vibhuti Yoga",
+      "sanskrit_title": "विभूतियोग",
+      "expected": 42,
+      "imported": 42,
+      "complete": true
+    },
+    {
+      "chapter_number": 11,
+      "title": "Visvarupa Darsana Yoga",
+      "sanskrit_title": "विश्वरूपदर्शनयोग",
+      "expected": 55,
+      "imported": 55,
+      "complete": true
+    },
+    {
+      "chapter_number": 12,
+      "title": "Bhakti Yoga",
+      "sanskrit_title": "भक्तियोग",
+      "expected": 20,
+      "imported": 20,
+      "complete": true
+    },
+    {
+      "chapter_number": 13,
+      "title": "Ksetra Ksetrajna Vibhaga Yoga",
+      "sanskrit_title": "क्षेत्रक्षेत्रज्ञविभागयोग",
+      "expected": 35,
+      "imported": 35,
+      "complete": true
+    },
+    {
+      "chapter_number": 14,
+      "title": "Gunatraya Vibhaga Yoga",
+      "sanskrit_title": "गुणत्रयविभागयोग",
+      "expected": 27,
+      "imported": 27,
+      "complete": true
+    },
+    {
+      "chapter_number": 15,
+      "title": "Purusottama Yoga",
+      "sanskrit_title": "पुरुषोत्तमयोग",
+      "expected": 20,
+      "imported": 20,
+      "complete": true
+    },
+    {
+      "chapter_number": 16,
+      "title": "Daivasura Sampad Vibhaga Yoga",
+      "sanskrit_title": "दैवासुरसम्पद्विभागयोग",
+      "expected": 24,
+      "imported": 24,
+      "complete": true
+    },
+    {
+      "chapter_number": 17,
+      "title": "Sraddhatraya Vibhaga Yoga",
+      "sanskrit_title": "श्रद्धात्रयविभागयोग",
+      "expected": 28,
+      "imported": 28,
+      "complete": true
+    },
+    {
+      "chapter_number": 18,
+      "title": "Moksa Sanyasa Yoga",
+      "sanskrit_title": "मोक्षसंन्यासयोग",
+      "expected": 78,
+      "imported": 78,
+      "complete": true
+    }
+  ]
+}

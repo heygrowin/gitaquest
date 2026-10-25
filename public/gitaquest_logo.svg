@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- GitaQuest Emblem: Open Book & Sacred Flame Leaves -->
+  <!-- Central Flame / Leaf -->
+  <path d="M60 18 C55 35 55 52 60 78 C65 52 65 35 60 18 Z" fill="#D4A359" opacity="0.95"/>
+  <path d="M60 26 C57 38 57 50 60 70 C63 50 63 38 60 26 Z" fill="#E8BD70"/>
+  
+  <!-- Inner Left Leaf (Forest Green) -->
+  <path d="M60 28 C46 40 43 58 54 78 C48 64 50 48 60 28 Z" fill="#1E3A2F"/>
+  <!-- Inner Right Leaf (Forest Green) -->
+  <path d="M60 28 C74 40 77 58 66 78 C72 64 70 48 60 28 Z" fill="#1E3A2F"/>
+
+  <!-- Mid Left Leaf (Warm Gold) -->
+  <path d="M57 38 C38 48 34 66 50 82 C42 70 44 54 57 38 Z" fill="#C8933E" opacity="0.9"/>
+  <!-- Mid Right Leaf (Warm Gold) -->
+  <path d="M63 38 C82 48 86 66 70 82 C78 70 76 54 63 38 Z" fill="#C8933E" opacity="0.9"/>
+
+  <!-- Outer Left Leaf (Deep Green) -->
+  <path d="M54 50 C32 60 26 78 46 88 C36 78 38 64 54 50 Z" fill="#2D5844"/>
+  <!-- Outer Right Leaf (Deep Green) -->
+  <path d="M66 50 C88 60 94 78 74 88 C84 78 82 64 66 50 Z" fill="#2D5844"/>
+
+  <!-- Open Book Base Spine & Pages -->
+  <!-- Left Page -->
+  <path d="M60 88 C46 84 32 86 20 92 C32 96 46 94 60 92 Z" fill="#1E3A2F"/>
+  <path d="M60 92 C46 88 32 90 20 96 C34 99 47 97 60 94 Z" fill="#D4A359" opacity="0.85"/>
+  <!-- Right Page -->
+  <path d="M60 88 C74 84 88 86 100 92 C88 96 74 94 60 92 Z" fill="#1E3A2F"/>
+  <path d="M60 92 C74 88 88 90 100 96 C86 99 73 97 60 94 Z" fill="#D4A359" opacity="0.85"/>
+
+  <!-- Center Core Accent -->
+  <circle cx="60" cy="85" r="3" fill="#D4A359"/>
+</svg>
